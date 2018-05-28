@@ -2,6 +2,7 @@
 *.la
 *.lo
 *.o
+*.mod
 *.orig
 *~
 \#*#
@@ -15,4 +16,6 @@ include/lisf.h
 include/stamp-h1
 libtool
 
-
+# tests and libraries
+test/
+.libs/
